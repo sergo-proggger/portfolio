@@ -1,0 +1,10 @@
+/* The anonymous demo uses a light placeholder background. */
+html{scroll-padding-top:24px}.site-header{position:relative;background:#fbf6f0;padding:8px 0}.header-container{justify-content:center}.main-navigation .nav-menu li a{color:#4a3f35}.hero-content{margin:0;padding:50px 24px}.hero-date,.hero-subtitle-top,.hero-title,.hero-title .name-bride-line{color:#4a3f35;text-shadow:none}.hero-date{margin:0 0 20px;line-height:1.6}.hero-subtitle-top{margin:0 0 25px}.hero-title{margin:0;gap:14px}.hero-title .name-amp{color:#875a5a}.hero-section{height:auto;min-height:640px}.hero-overlay{position:relative;min-height:inherit}.demo-back{min-height:44px;display:inline-flex;align-items:center;max-width:calc(100% - 24px)}
+@media(max-width:768px){
+ .header-container{padding:0 12px}.main-navigation{width:100%;padding:0!important}
+ .main-navigation .nav-menu{width:100%;max-width:100%;padding:0;gap:0 12px!important;justify-content:center;box-shadow:none;right:auto;background:transparent!important}
+ .main-navigation .nav-menu li a{font-size:13px;letter-spacing:0;text-transform:none;min-height:44px;padding:10px 3px;display:flex;align-items:center;border:0}
+ .hero-section{min-height:500px;min-height:max(500px,calc(100svh - 96px))}.hero-content{margin:0;padding:45px 20px 80px}
+ .hero-date{font-size:14px;letter-spacing:.08em;margin:0 0 24px}.hero-subtitle-top{font-size:48px;margin:0 0 30px}.hero-title{font-size:clamp(32px,9vw,48px);letter-spacing:0;margin:0;padding:0}.hero-title .name-bride-line{letter-spacing:0}
+ .demo-back{font-size:13px;left:12px;bottom:12px}.footer-copy{padding-bottom:55px}
+}
